@@ -130,6 +130,12 @@
         <version>${version.powermock}</version>
         <scope>test</scope>
       </dependency>
+      
+      <dependency>
+        <groupId>org.powermock</groupId>
+        <artifactId>powermock-module-javaagent</artifactId>
+        <version>${version.powermock}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -157,6 +163,10 @@
     <dependency>
       <groupId>org.powermock</groupId>
       <artifactId>powermock-module-junit4-rule-agent</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-javaagent</artifactId>
     </dependency>
   </dependencies>
 

@@ -35,18 +35,6 @@
           <encoding>UTF8</encoding>
           <compilerId>groovy-eclipse-compiler</compilerId>
         </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-eclipse-compiler</artifactId>
-            <version>${version.groovy-eclipse-compiler}</version>
-          </dependency>
-          <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-eclipse-batch</artifactId>
-            <version>${version.groovy-eclipse-batch}</version>
-          </dependency>
-        </dependencies>
       </plugin>
       <plugin>
         <groupId>org.codehaus.groovy</groupId>
